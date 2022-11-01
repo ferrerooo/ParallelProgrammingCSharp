@@ -26,6 +26,8 @@ namespace IntroducingTasks
 
     public static void CreateAndStartSimpleTasks()
     {
+      Console.WriteLine("== CreateAndStartSimpleTasks() ==");
+
       Task.Factory.StartNew(() =>
       {
         Write('-');
@@ -39,13 +41,17 @@ namespace IntroducingTasks
 
     public static void Main1(string[] args)
     {
-      //CreateAndStartSimpleTasks();
-      //TasksWithState();
-      TasksWithReturnValues();
-
+      CreateAndStartSimpleTasks();
       Thread.Sleep(1000);
+
+      TasksWithState();
+      Thread.Sleep(1000);
+
+      TasksWithReturnValues();
+      Thread.Sleep(1000);
+      
       Console.WriteLine("Main program done, press any line.");
-      Console.ReadLine();      
+      //Console.ReadLine();      
     }
 
     public static int TextLength(object o)
@@ -56,6 +62,8 @@ namespace IntroducingTasks
 
     private static void TasksWithReturnValues()
     {
+      Console.WriteLine("== TasksWithReturnValues() ==");
+
       string text1 = "testing", text2 = "this";
       var task1 = new Task<int>(TextLength, text1);
       task1.Start();
@@ -68,6 +76,7 @@ namespace IntroducingTasks
 
     private static void TasksWithState()
     {
+      Console.WriteLine("== TasksWithState() ==");
       // clumsy 'object' approach
       Task t = new Task(Write, "foo");
       t.Start();

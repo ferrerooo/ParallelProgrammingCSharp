@@ -9,10 +9,12 @@ namespace IntroducingTasks
   {
     static void Main1(string[] args)
     {
-
       Thread.SpinWait(10000);
-      //CancelableTasks();
-      //MonitoringCancelation();
+      
+      CancelableTasks();
+      
+      MonitoringCancelation();
+      
       //CompositeCancelationToken();
       WaitingForTimeToPass();
 
