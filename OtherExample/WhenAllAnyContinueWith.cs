@@ -12,12 +12,12 @@ public class WhenAllAnyContinueWith
         {
             Task task1 = new Task(() => {
                 Thread.Sleep(500);
-                Console.WriteLine("线程1执行完毕！");
+                Console.WriteLine($"线程1执行完毕！{Thread.CurrentThread.ManagedThreadId}");
             });
             task1.Start();
             Task task2 = new Task(() => {
                 Thread.Sleep(1000);
-                Console.WriteLine("线程2执行完毕！");
+                Console.WriteLine($"线程2执行完毕！{Thread.CurrentThread.ManagedThreadId}");
             });
             task2.Start();
             
@@ -26,10 +26,10 @@ public class WhenAllAnyContinueWith
             
             t.ContinueWith((t) => {
                 Thread.Sleep(100);
-                Console.WriteLine("执行后续操作完毕！");
+                Console.WriteLine($"执行后续操作完毕！{Thread.CurrentThread.ManagedThreadId}");
             });
 
-            Console.WriteLine("主线程执行完毕！");
+            Console.WriteLine($"主线程执行完毕！{Thread.CurrentThread.ManagedThreadId}");
             Console.ReadLine();
         }
         
