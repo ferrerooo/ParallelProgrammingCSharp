@@ -1,0 +1,15 @@
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/obj/Debug/net6.0/ParallelProgrammingCSharp.csproj.AssemblyReference.cache
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/obj/Debug/net6.0/ParallelProgrammingCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/obj/Debug/net6.0/ParallelProgrammingCSharp.AssemblyInfoInputs.cache
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/obj/Debug/net6.0/ParallelProgrammingCSharp.AssemblyInfo.cs
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/obj/Debug/net6.0/ParallelProgrammingCSharp.csproj.CoreCompileInputs.cache
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/bin/Debug/net6.0/ParallelProgrammingCSharp
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/bin/Debug/net6.0/ParallelProgrammingCSharp.deps.json
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/bin/Debug/net6.0/ParallelProgrammingCSharp.runtimeconfig.json
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/bin/Debug/net6.0/ParallelProgrammingCSharp.dll
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/bin/Debug/net6.0/ParallelProgrammingCSharp.pdb
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/obj/Debug/net6.0/ParallelProgrammingCSharp.dll
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/obj/Debug/net6.0/refint/ParallelProgrammingCSharp.dll
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/obj/Debug/net6.0/ParallelProgrammingCSharp.pdb
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/obj/Debug/net6.0/ParallelProgrammingCSharp.genruntimeconfig.cache
+/Users/chunyaozou/Documents/c/ParallelProgrammingCSharp/obj/Debug/net6.0/ref/ParallelProgrammingCSharp.dll

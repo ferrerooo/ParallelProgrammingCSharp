@@ -20,7 +20,7 @@ namespace ConcurrentCollections
       Console.WriteLine($"{who} {(success ? "added" : "did not add")} the element.");
     }
 
-    public static void Main(string[] args)
+    public static void Main1(string[] args)
     {
       AddParis();
       Task.Factory.StartNew(AddParis).Wait();

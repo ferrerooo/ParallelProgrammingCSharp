@@ -35,7 +35,7 @@ namespace DataSharingAndSynchronization
       }
     }
 
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       var tasks = new List<Task>();
       var ba = new BankAccount();

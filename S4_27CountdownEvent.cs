@@ -10,7 +10,7 @@ namespace TaskCoordination
     private static int taskCount = 5;
     static CountdownEvent cte = new CountdownEvent(taskCount);
     static Random random = new Random();
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       var tasks = new Task[taskCount];
       for (int i = 0; i < taskCount; i++)

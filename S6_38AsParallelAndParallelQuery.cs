@@ -6,7 +6,7 @@ namespace ParallelLinq
 {
   public class AsParallelExample
   {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       const int count = 50;
 

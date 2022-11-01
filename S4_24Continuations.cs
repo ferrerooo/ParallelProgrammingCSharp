@@ -6,7 +6,7 @@ namespace TaskCoordination
 {
   class CreatingContinuationsDemo
   {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       //SimpleContinuation();
       ContinueWhen();

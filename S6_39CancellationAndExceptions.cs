@@ -8,7 +8,7 @@ namespace ParallelLinq
 {
   public class CancellationAndExceptions
   {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
 
       var cts = new CancellationTokenSource();
@@ -38,7 +38,7 @@ namespace ParallelLinq
       }
       catch (OperationCanceledException e)
       {
-        Console.WriteLine($"Canceled");
+        Console.WriteLine($"Canceled" + e);
       }
       catch (AggregateException ae)
       {

@@ -8,7 +8,7 @@ namespace ParallelLoops
   public class ThreadLocalStorageDemo
   {
     private Random random = new Random();
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       // add numbers from 1 to 100
 

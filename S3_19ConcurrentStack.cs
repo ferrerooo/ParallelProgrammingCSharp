@@ -7,7 +7,7 @@ namespace ConcurrentCollections
 {
   public class ConcurrentStack
   {
-    static void Main()
+    static void Main1()
     {
       var stack = new ConcurrentStack<int>();
       stack.Push(1);

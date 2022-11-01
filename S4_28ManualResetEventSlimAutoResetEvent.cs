@@ -60,7 +60,7 @@ namespace TaskCoordination
       makeTea.Wait(token);
     }
 
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       //Manual();
       Automatic();

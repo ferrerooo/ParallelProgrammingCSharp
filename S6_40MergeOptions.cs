@@ -7,7 +7,7 @@ namespace ParallelLinq
 {
   public class MergeOptions
   {
-    public static void Main(string[] args)
+    public static void Main1(string[] args)
     {
       var numbers = Enumerable.Range(1, 20).ToArray();
 

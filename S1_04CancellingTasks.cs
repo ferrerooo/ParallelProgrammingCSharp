@@ -7,7 +7,7 @@ namespace IntroducingTasks
 {
   class CancelingTasks
   {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
 
       Thread.SpinWait(10000);

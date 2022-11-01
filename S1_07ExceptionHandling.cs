@@ -35,7 +35,7 @@ namespace IntroducingTasks
       }
     }
 
-    static void Main()
+    static void Main1()
     {
       //BasicHandling();
 

@@ -37,7 +37,7 @@ namespace ParallelLoops
         Console.WriteLine($"Lowest break iteration: {result.LowestBreakIteration}");
     }
 
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       try
       {

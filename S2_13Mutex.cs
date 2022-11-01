@@ -107,7 +107,7 @@ namespace DataSharingAndSynchronization
       Console.WriteLine($"Final balance is: ba={ba.Balance}, ba2={ba2.Balance}.");
     }
 
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       LocalMutex();
       GlobalMutex();
@@ -127,7 +127,7 @@ namespace DataSharingAndSynchronization
       }
       catch (WaitHandleCannotBeOpenedException e)
       {
-        Console.WriteLine("We can run the program just fine.");
+        Console.WriteLine("We can run the program just fine." + e);
         // first arg = whether to give current thread initial ownership
         mutex = new Mutex(false, appName);
       }

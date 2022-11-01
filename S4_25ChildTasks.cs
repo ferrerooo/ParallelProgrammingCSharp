@@ -8,7 +8,7 @@ namespace TaskCoordination
 {
   class ChildTasks
   {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       var parent = new Task(() =>
       {

@@ -7,7 +7,7 @@ namespace IntroducingTasks
 {
   class WaitingForTimeToPass
   {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       // we've already seen the classic Thread.Sleep
 

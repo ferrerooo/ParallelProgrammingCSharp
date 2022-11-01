@@ -11,7 +11,7 @@ namespace DataSharingAndSynchronization
     // 只允许一个线程写入（其他线程既不能写入也不能读取）；没有写入时，多个线程允许同时读（提高性能）。
     static ReaderWriterLockSlim padlock = new ReaderWriterLockSlim(LockRecursionPolicy.SupportsRecursion);
 
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       int x = 0;
 

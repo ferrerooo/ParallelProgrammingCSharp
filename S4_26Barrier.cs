@@ -36,7 +36,7 @@ namespace TaskCoordination
       Console.WriteLine("Adding sugar");
     }
 
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       var water = Task.Factory.StartNew(Water);
       var cup = Task.Factory.StartNew(Cup);

@@ -17,7 +17,7 @@ namespace ParallelLoops
       }
     }
 
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       var a = new Action(() => Console.WriteLine($"First {Task.CurrentId}"));
       var b = new Action(() => Console.WriteLine($"Second {Task.CurrentId}"));

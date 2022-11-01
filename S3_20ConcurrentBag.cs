@@ -9,7 +9,7 @@ namespace ConcurrentCollections
 {
   public class ConcurrentBagDemo
   {
-    static void Main()
+    static void Main1()
     {
       // stack is LIFO
       // queue is FIFO

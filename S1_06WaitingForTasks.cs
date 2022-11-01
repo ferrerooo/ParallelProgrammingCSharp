@@ -7,7 +7,7 @@ namespace IntroducingTasks
 {
   class WaitingForTasks
   {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       var cts = new CancellationTokenSource();
       cts.CancelAfter(TimeSpan.FromSeconds(3)); // try 30 as well

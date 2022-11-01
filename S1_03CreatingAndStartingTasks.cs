@@ -4,7 +4,7 @@ namespace IntroducingTasks
   using System.Threading.Tasks;
   using System.Threading;
 
-  class IntroducingTasks
+  public class IntroducingTasks
   {
     public static void Write(char c)
     {
@@ -37,7 +37,7 @@ namespace IntroducingTasks
       Write('.');
     }
 
-    static void Main(string[] args)
+    public static void Main1(string[] args)
     {
       //CreateAndStartSimpleTasks();
       //TasksWithState();

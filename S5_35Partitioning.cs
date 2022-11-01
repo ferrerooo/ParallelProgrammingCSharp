@@ -1,4 +1,5 @@
 
+/*
 using System;
 using System.Collections.Concurrent;
 using System.Linq;
@@ -38,10 +39,11 @@ namespace ParallelLoops
     }
 
 
-    static void Main()
+    static void Main1()
     {
       var summary = BenchmarkRunner.Run<PartitioningDemo>();
       Console.WriteLine(summary);
     }
   }
 }
+*/

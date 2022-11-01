@@ -1,13 +1,13 @@
 
 using System;
 using System.Linq;
-using System.Runtime.Remoting.Messaging;
+//using System.Runtime.Remoting.Messaging;
 
 namespace ParallelLinq
 {
   public class CustomAggregationDemo
   {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
       // some operations in LINQ perform an aggregation
       //var sum = Enumerable.Range(1, 1000).Sum();

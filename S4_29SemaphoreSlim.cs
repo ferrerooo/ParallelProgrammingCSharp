@@ -1,15 +1,15 @@
 
 using System;
-using System.Management.Instrumentation;
 using System.Threading;
 using System.Threading.Tasks;
+//using System.Management.Instrumentation;
 
 namespace TaskCoordination
 {
   class SemaphoreDemo
   {
 
-    static void Main()
+    static void Main1()
     {
       var semaphore = new SemaphoreSlim(2, 10);
 
