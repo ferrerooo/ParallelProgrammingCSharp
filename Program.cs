@@ -6,7 +6,9 @@ class Program
     {
         Console.WriteLine("==start==");
 
-        IntroducingTasks.IntroducingTasks.Main1(null);
+        //IntroducingTasks.IntroducingTasks.Main1(null);
+
+        AsyncAwait2.Main1(null);
 
         Console.WriteLine("==end==");
     }
