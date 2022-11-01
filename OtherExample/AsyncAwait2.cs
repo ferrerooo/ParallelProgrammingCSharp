@@ -40,6 +40,5 @@ public class AsyncAwait2
             task.Start();
             Console.WriteLine("<<<<GetStringFromTask方法结束");
             return task;
-            //return "111";
         }
     }
