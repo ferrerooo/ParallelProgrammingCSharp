@@ -9,11 +9,11 @@ namespace IntroducingTasks
   {
     public static void Main1()
     {
-      Thread.SpinWait(10000);
+      //Thread.SpinWait(10000);
 
-      //CancelableTasks();
+      CancelableTasks();
 
-      MonitoringCancelation();
+      //MonitoringCancelation();
 
       //CompositeCancelationToken();
       
@@ -37,7 +37,7 @@ namespace IntroducingTasks
           else
             Console.WriteLine($"{i++}\t");
         }
-      });
+      }, token);
       t.Start();
 
       // don't forget CancellationToken.None

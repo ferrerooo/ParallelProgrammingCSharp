@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DataSharingAndSynchronization
 {
-  class CriticalSections
+  public class CriticalSections
   {
     class BankAccount
     {
@@ -17,11 +17,6 @@ namespace DataSharingAndSynchronization
 
         lock (padlock)
         {
-          // += is really two operations
-          // op1 is temp <- get_Balance() + amount
-          // op2 is set_Balance(temp)
-          // something can happen _between_ op1 and op2
-
           Balance += amount;
         }
       }
@@ -35,7 +30,7 @@ namespace DataSharingAndSynchronization
       }
     }
 
-    static void Main1(string[] args)
+    public static void Main1()
     {
       var tasks = new List<Task>();
       var ba = new BankAccount();
@@ -57,7 +52,6 @@ namespace DataSharingAndSynchronization
       Task.WaitAll(tasks.ToArray());
 
       Console.WriteLine($"Final balance is {ba.Balance}.");
-
 
       Console.WriteLine("All done here.");
     }

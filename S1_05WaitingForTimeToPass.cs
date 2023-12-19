@@ -7,7 +7,7 @@ namespace IntroducingTasks
 {
   class WaitingForTimeToPass
   {
-    static void Main1(string[] args)
+    public static void Main1()
     {
       // we've already seen the classic Thread.Sleep
 
@@ -24,7 +24,7 @@ namespace IntroducingTasks
       // unlike sleep and waitone
       // thread does not give up its turn
       // avoiding a context switch
-      Thread.SpinWait(10000);
+      Thread.SpinWait(100000);
       SpinWait.SpinUntil(() => true);
       Console.WriteLine("Are you still here?");
 
