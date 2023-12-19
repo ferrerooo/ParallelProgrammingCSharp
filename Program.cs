@@ -1,4 +1,5 @@
 using System;
+using AsyncAndAwait;
 using Microsoft.VisualBasic;
 
 class Program 
@@ -16,7 +17,9 @@ class Program
         //IntroducingTasks.WaitExample.Main1(); // S1_Add_Wait
         //IntroducingTasks.TokenAssociationExample.Main1(); // S1_Add_TokenAssociation
 
-        DataSharingAndSynchronization.CriticalSections.Main1(); // S2_10CriticalSections
+        //DataSharingAndSynchronization.CriticalSections.Main1(); // S2_10CriticalSections
+
+        UsingAsyncAndAwait.Main1();
 
         Console.WriteLine("==end==");
     }
